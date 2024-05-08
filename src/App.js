@@ -3,21 +3,25 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-background">
+      <nav>
+        hello
+      </nav>
+      <div style={{height: '10vh'}}></div>
+
+      <div className="App">
+          <h1>Galactic Mining Game</h1>
+          <img src={logo} className="App-logo" alt="logo" />
+          <dev style={{display: 'grid'}}>
+            <label>
+              Username: <input type="text" name="name"/>
+            </label>
+      
+            <label>
+              Password: <input type="text" name="name" />
+            </label>
+          </dev>
+      </div>
     </div>
   );
 }
