@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App-background">
       <nav>
-        hel
+        hello
       </nav>
       <div style={{height: '10vh'}}></div>
 
