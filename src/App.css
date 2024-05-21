@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #011936;
+  --secondary-color: #716969;
+  --tertiary-color: #0a0908;
+  --quaternary-color: #F7F7F2;
+  --quinary-color: #f42c04;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +22,7 @@
 }
 
 .App-background {
-  background-color: #282c34;
+  background-color: var(--primary-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+
